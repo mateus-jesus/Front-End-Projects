@@ -1,0 +1,32 @@
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #bbbbbb;
+    padding: 20px 20px 0px 0px;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 20px;
+}
+
+
+nav li {
+    display: inline;
+    margin:  0 0 0 15px;
+}
+nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+
+
