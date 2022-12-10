@@ -1,44 +1,112 @@
-
-.titulo-principal{
-    padding-left: 20px;
-}
-#banner {
-    width: 100%;
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
-.principal {
-    background: #CCCCCC;
-    padding: 50px;
+header {
+    background-color: #bbbbbb;
+    padding: 20px 20px 0px 0px;
 }
-.principal p {
-    text-align: center;
-}
-.titulo-centralizado {
-    text-align: center;
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 20px;
 }
 
 
-
-.beneficios {
-    background: white;
-    padding: 20px;
+nav li {
+    display: inline;
+    margin:  0 0 0 15px;
 }
-#missao {
-    color: #FF0000;
+nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 27px;
 }
 
-.lista{
+nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.produtos li{
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 20px;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+
 }
 
-.lista li{
-    font-style: italic;
+.produtos li:hover {
+    border-color: red;
 
 }
+.produtos li:active {
+    border-color: green;
+}
+.produtos li:hover h2 {
 
-.imgbeneficios {
+    font-size: 34px;
+}
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    background-image: url("/assets/media/bg.jpg");
+    background-color: black;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+main form{
+    margin: 40px 0px;
+}
+
+main label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 15px;
+}
+main input {
+    display: block;
+    margin: 0 0 20px;
     width: 50%;
+    padding: 10px 25px;
 }
