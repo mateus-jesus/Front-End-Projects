@@ -95,18 +95,23 @@ main {
     margin: 0 auto;
 }
 
-main form{
+form{
     margin: 40px 0px;
 }
 
-main label {
+form label, form p {
     display: block;
     font-size: 20px;
     margin: 0 0 15px;
 }
-main input {
+.input-padrao {
     display: block;
     margin: 0 0 20px;
     width: 50%;
     padding: 10px 25px;
+}
+
+.checkboxemail {
+    margin: 20px 0;
+    
 }
