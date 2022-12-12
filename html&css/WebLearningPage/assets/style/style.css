@@ -99,7 +99,7 @@ form{
     margin: 40px 0px;
 }
 
-form label, form p {
+form label, form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 15px;
@@ -114,4 +114,35 @@ form label, form p {
 .checkboxemail {
     margin: 20px 0;
     
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    font-style: bold;
+}
+
+.enviar:hover {
+    background-color: darkorange;
+    transform: scale(1.05);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead{
+    background-color: rgb(51, 50, 50);
+    color: white;
+    font-style: bold;
+}
+td, th {
+    padding: 8px 15px;
+    border: 1px solid black;
 }
