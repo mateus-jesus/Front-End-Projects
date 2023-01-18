@@ -16,9 +16,10 @@ body {
 }
 
 header {
-  background-color: #bbbbbb;
-
+  background-color: #202020;
   padding: 20px 20px 0px 0px;
+  height: 113px;
+  width: 100%;
 }
 
 .logoimg {
@@ -32,20 +33,23 @@ nav {
 }
 
 nav li {
+  align-items: center;
+}
+
+nav li {
   display: inline;
   margin: 0 0 0 15px;
 }
 nav li a {
   text-decoration: none;
   text-transform: uppercase;
-  color: black;
+  color: white;
   font-weight: bold;
   font-size: 27px;
 }
 
 nav a:hover {
   color: #c78c19;
-  text-decoration: underline;
 }
 
 .produtos {
@@ -156,6 +160,7 @@ th {
 
 .banner {
   width: 100%;
+  height: 25%;
 }
 
 .titulo-principal {
@@ -163,11 +168,13 @@ th {
   font-size: 2em;
   margin: 0 0 1em;
   clear: left;
+  font-weight: bold;
 }
 .utensilios {
   width: 120px;
   float: left;
   margin: 0 20px 20px 0;
+  border-radius: 25px;
 }
 
 .principal {
@@ -179,6 +186,7 @@ th {
 
 .principal p {
   margin: 0 0 1em;
+  font-size: 13px;
 }
 
 .principal strong {
