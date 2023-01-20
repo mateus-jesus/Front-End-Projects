@@ -15,11 +15,15 @@ body {
   margin: 0 auto;
 }
 
-header {
+.nav-background {
   background-color: #202020;
   padding: 20px 20px 0px 0px;
-  height: 113px;
+  height: 5em;
   width: 100%;
+}
+.nav-paginas {
+  top: 0.5em;
+  left: 35;
 }
 
 .logoimg {

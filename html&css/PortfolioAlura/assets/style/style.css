@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.titulo {
+  height: 168px;
+  width: 593px;
+
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  size: 36px;
+  width: 593px;
+  color: white;
+}
+
+.apresentacao {
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  color: #f6f6f6;
+  size: 24px;
+  top: 208px;
+  width: 593px;
+}
+
+.botao {
+  width: 280px;
+  height: 79px;
+  border-radius: 16px;
+  padding: 16px;
+  background-color: #22d4fd;
+  color: black;
+  text-decoration: none;
+}
