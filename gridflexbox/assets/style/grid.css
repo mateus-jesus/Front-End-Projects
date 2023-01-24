@@ -10,6 +10,17 @@
   grid-row: 2/4;
 }
 
+/* eventos  */
+
+.eventos__item {
+  display: grid;
+  grid-template-areas:
+    "imagem imagem"
+    "nome nome"
+    "data data"
+    "local botao";
+}
+
 @media (min-width: 720px) {
   .banner img:nth-child(1) {
     grid-column: 1/2;
@@ -18,5 +29,10 @@
   .banner img:nth-child(4) {
     grid-column: 3/4;
     grid-row: 1/3;
+  }
+
+  .banner {
+    grid-template-columns: calc(50% - 0.75rem) auto auto;
+    column-gap: 1.5rem;
   }
 }
