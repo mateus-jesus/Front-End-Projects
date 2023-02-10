@@ -1,0 +1,38 @@
+@import url(../../index.html);
+@import url(style.css);
+
+.container__menu-hamburguer {
+  height: 24px;
+  width: 24px;
+  background-image: url(../media/Menu.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.cabeçalho {
+  background-color: var(--branco-padrao);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container__imagem {
+  padding: 1em;
+}
+
+.container__lista-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+}
+
+.container__botao:checked ~ .container__lista-menu {
+  display: block;
+}
