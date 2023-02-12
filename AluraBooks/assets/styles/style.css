@@ -9,9 +9,12 @@
   --tam-fonte-titulo: 18px;
   --tam-fonte-subtitulo: 16px;
   --tam-fonte-texto: 14px;
+  --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
 }
 
 body {
   background-color: var(--cor-de-fundo);
   font-family: var(--fonte-padrao);
+  font-size: 16px;
+  font-weight: 400;
 }
