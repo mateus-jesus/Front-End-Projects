@@ -25,6 +25,10 @@
 
 /* estilização do card */
 
+.descrição__estrelas {
+  margin: 8px 0;
+}
+
 .descrição__titulo {
   font-size: 16px;
   font-weight: bold;
@@ -42,13 +46,14 @@
   font-size: 14px;
 }
 
-.botão__saibamais {
+.botão__saibamais2 {
   color: var(--branco-padrao);
   background-color: var(--cor-do-botao);
   text-decoration: none;
   padding: 16px 18px;
   text-align: center;
   align-items: center;
-  justify-content: center;
   width: 130px;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
 }

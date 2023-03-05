@@ -2,12 +2,18 @@
 @import url(../styles/banner.css);
 @import url(../styles/carrosel.css);
 @import url(../styles/cards.css);
+@import url(../styles/carrosel2.css);
+@import url(../styles/autora.css);
+@import url(../styles/topicos.css);
+@import url(../styles/contato.css);
+@import url(../styles/style.css);
 
 :root {
   --cor-de-fundo: #ebecee;
   --branco-padrao: #ffffff;
   --cor-do-botao: #eb9b00;
   --titulo-sections: #eb9b00;
+  --card-azul: #002f52;
   --fonte-padrao: "poppins";
   --tam-fonte-titulo: 18px;
   --tam-fonte-subtitulo: 16px;
