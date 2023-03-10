@@ -57,3 +57,12 @@
   justify-content: flex-start;
   flex-direction: row-reverse;
 }
+
+@media screen and (min-width: 1024px) {
+  .autora {
+    width: 60%;
+    margin: 0 auto;
+    align-self: center;
+    margin-bottom: 3em;
+  }
+}
