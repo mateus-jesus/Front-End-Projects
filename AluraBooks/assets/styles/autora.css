@@ -59,10 +59,20 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .autora {
+  .card {
     width: 60%;
     margin: 0 auto;
     align-self: center;
     margin-bottom: 3em;
+  }
+}
+
+@media screen and (min-width: 1724px) {
+  .card {
+    width: 60%;
+    margin: 0 auto;
+    align-self: center;
+    margin-bottom: 2em;
+    left: 3em;
   }
 }

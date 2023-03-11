@@ -7,6 +7,14 @@
   display: inline-block;
 }
 
+.container__botao:checked ~ .container__rotulo > .container__menu-hamburguer {
+  background-image: url("../media/Menu\ Aberto.png");
+}
+
+.container__botao:checked ~ .container__rotulo {
+  background: var(--azul-degrade);
+}
+
 .cabeçalho {
   background-color: var(--branco-padrao);
   display: flex;
@@ -105,6 +113,15 @@
   }
   .opções__botão {
     display: none;
+  }
+
+  .opções__botão:checked ~ .opções__rotulo > .opções__item {
+    background: var(--azul-degrade);
+    color: var(--branco-padrao);
+  }
+
+  .opções__item {
+    padding: 2em 1em;
   }
 }
 
