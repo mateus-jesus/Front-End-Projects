@@ -1,9 +1,6 @@
-const subtrair = document.querySelector("#subtrair");
-const somar = document.querySelector("#somar");
-
 const controle = document.querySelectorAll("[data-controle]");
-const estatisticas = document.querySelectorAll("[data-estatistica]");
-console.log(estatisticas);
+const estatistica = document.querySelectorAll("[data-estatistica]");
+
 const pecas = {
   bracos: {
     forca: 29,
@@ -50,13 +47,15 @@ function ManipulaDados(operacao, controle) {
 
   if (operacao == "+") {
     peca.value = parseInt(peca.value) + 1;
-  } else {  
+  } else {
     peca.value = parseInt(peca.value) - 1;
   }
 }
 
 function atualizaEstatistica(peca) {
-  console.log(pecas[peca]); 
+  estatistica.forEach((elemento) => {
+    elemento.textContent =
+      parseInt(elemento.textContent) +
+      pecas[peca][elemento.dataset.estatistica];
+  });
 }
-
-estatisticas.forEach( (elemento) => {console.log(elemento
